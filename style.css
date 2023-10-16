@@ -18,6 +18,7 @@ html {
 }
 
 .moving-title {
+    font-size: calc(16px + 2vw); /* adjust this formula as needed */
     animation: jump 1s infinite;
 }
 
