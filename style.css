@@ -32,3 +32,23 @@ html {
 body {
     font-family: 'MabinogiClassicR', sans-serif;
 }
+
+.swiper-container {
+   width: 100%;
+   height: calc(100vh - var(--header-height)); /* 필요에 따라 조정 */
+}
+
+.swiper-slide {
+   text-align:center;
+   font-size:30px;
+   background:#fff;
+
+   /* Center slide text vertically */
+   display:-webkit-box;
+   display:-ms-flexbox;
+   display:-webkit-flex;
+   display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center
+}
+.zoom {
+    transform: scale(1.2); /* 객체를 20% 확대 */
+}
