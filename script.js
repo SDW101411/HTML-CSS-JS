@@ -11,10 +11,10 @@ var swiper = new Swiper('.swiper-container', {
     slideChange:function(){
       var slides = document.querySelectorAll('.swiper-slide');
       slides.forEach(function(slide){
-        slide.classList.remove('zoom'); // 모든 슬라이드에서 zoom 클래스 제거
+        slide.classList.remove('active'); // 모든 슬라이드에서 active 클래스 제거
       });
 
-      slides[this.activeIndex].classList.add('zoom'); // 현재 활성화된 슬라이드에 zoom 클래스 추가 
+      slides[this.activeIndex].classList.add('active'); // 현재 활성화된 슬라이드에 active 클래스 추가 
     }
   }
 });
